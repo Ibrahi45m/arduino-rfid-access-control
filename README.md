@@ -65,6 +65,18 @@ Pour le programme final :
 
 > Attention : ne jamais alimenter le RC522 avec 5 V.
 
+## Hardware Prototype
+
+The RFID access control system was implemented and tested on real hardware using an Arduino Uno and an MFRC522 RFID reader connected via SPI.
+
+### Full Prototype
+![RFID Prototype](docs/images/rfid_prototype_full.jpg)
+
+### Wiring Close-up
+![RFID Wiring](docs/images/rfid_wiring_closeup.jpg)
+
+The hardware tests confirmed reliable RFID card detection and UID reading before integrating EEPROM-based storage and access control logic.
+
 ## Auteur
 
 Ibrahim Ait Massoud
